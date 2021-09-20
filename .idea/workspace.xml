@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51522f0a-2f42-4ec9-aa84-89a0a74831a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Tool_based_on_Symfony_Console_18_08_2021__12_51_artisan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Tool_based_on_Symfony_Console_18_08_2021__12_51_artisan.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/itproger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/itproger.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="51522f0a-2f42-4ec9-aa84-89a0a74831a5" name="Default Changelist" comment="Create form">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ImageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MailController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Jobs/PrepareJob.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Jobs/PublishJob.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Jobs/SendMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/ReviewModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_08_20_141452_create_review_models_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_09_02_103007_create_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_09_20_141933_create_tasks_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/review.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/tasks/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/tasks/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/tasks/one-task.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Tasks.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/messages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/messages.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/one-messages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/one-messages.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/update-message.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/update-message.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/aside.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/footer.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/header.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/hero.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/messages.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/messages.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/one-messages.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/update-message.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,6 +48,9 @@
     <execution>
       <phar pharPath="C:\laragon\www\itprog\composer.phar" interpreterId="bdc1387e-7369-48d0-ab6c-c93d52f774cd" />
     </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="itprog" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -157,27 +178,32 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1wtfr2Otao75XRLecrF1Dy4a1A0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/tasks" />
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../bin/nodejs/node-v14/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\itprog\app\Models" />
+      <recent name="C:\laragon\www\itprog\app" />
+      <recent name="C:\laragon\www\itprog\resources\views" />
+      <recent name="C:\laragon\www\itproger\app\Models" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\itprog\resources\views\tasks" />
       <recent name="C:\laragon\www\itprog\resources\views" />
       <recent name="C:\laragon\www\itprog\resources\views\layouts" />
       <recent name="C:\laragon\www\itprog\config" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\itprog\resources\views" />
-      <recent name="C:\laragon\www\itprog\app\Models" />
-      <recent name="C:\laragon\www\itproger\app\Models" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -230,7 +256,25 @@
       <workItem from="1629283320313" duration="694000" />
       <workItem from="1629284640849" duration="232000" />
       <workItem from="1629289923156" duration="10079000" />
-      <workItem from="1629375469667" duration="5512000" />
+      <workItem from="1629375469667" duration="8583000" />
+      <workItem from="1629442953861" duration="18543000" />
+      <workItem from="1630140605693" duration="58000" />
+      <workItem from="1630141026245" duration="29000" />
+      <workItem from="1630141173424" duration="624000" />
+      <workItem from="1630142977683" duration="57000" />
+      <workItem from="1630143186268" duration="40000" />
+      <workItem from="1630143317011" duration="345000" />
+      <workItem from="1630143695009" duration="58000" />
+      <workItem from="1630143776309" duration="1175000" />
+      <workItem from="1630153984581" duration="3782000" />
+      <workItem from="1630577974813" duration="4702000" />
+      <workItem from="1630597955130" duration="638000" />
+      <workItem from="1630655044125" duration="13019000" />
+      <workItem from="1630933324720" duration="3991000" />
+      <workItem from="1631529022276" duration="1264000" />
+      <workItem from="1631708195378" duration="1197000" />
+      <workItem from="1631888054088" duration="1310000" />
+      <workItem from="1632139333249" duration="13768000" />
     </task>
     <task id="LOCAL-00001" summary="Validation">
       <created>1629144770222</created>
@@ -239,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629144770222</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create form">
+      <created>1632154464196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632154464196</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +310,19 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validation" />
+    <MESSAGE value="Create form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create form" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/layout.blade.php</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
