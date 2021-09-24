@@ -15,7 +15,7 @@
     <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
         <a class="me-3 py-2 text-white text-decoration-none" href="{{ route('home') }}">Главная</a>
         <a class="me-3 py-2 text-white text-decoration-none" href="{{ route('about') }}">О нас</a>
-        <a class="btn btn-warning" href="{{ route('tasks') }}">Все задачи</a>
+        <a class="btn btn-warning" href="{{ route('tasks.index') }}">Все задачи</a>
     </nav>
 </div>
 <div class="container">

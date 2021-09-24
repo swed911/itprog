@@ -13,10 +13,10 @@ class TasksController extends Controller
         return view('tasks.index', ['data' => $task->all()]);
     }
 
-    public function oneTask($id)
-    {
+    public function show($id)
+    {;
         $task = new Tasks;
-        return view('tasks.one-task', ['data' => $task->find($id)]);
+        return view('tasks.show', ['data' => $task->find($id)]);
     }
 
     public function create()
@@ -33,6 +33,13 @@ class TasksController extends Controller
 
         $task->save();
 
-        return redirect(route('tasks'));
+        return redirect(route('tasks.index'));
+    }
+
+    public function edit($id)
+    {
+        $task = new Tasks;
+        return view('tasks.edit', ['data' => $task->find($id)]);
+
     }
 }

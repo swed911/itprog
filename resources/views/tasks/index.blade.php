@@ -7,7 +7,7 @@
             <h3>{{ $element->title }}</h3>
             <p>{{ $element->author }}</p>
             <p><small>{{ $element->created_at }}</small></p>
-            <a href="{{ route('one-task', $element->id) }}"><button class="btn btn-warning">Детальнее</button></a>
+            <a href="{{ route('tasks.show', $element->id) }}"><button class="btn btn-warning">Детальнее</button></a>
         </div>
     @endforeach
 @endsection

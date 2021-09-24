@@ -1,40 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51522f0a-2f42-4ec9-aa84-89a0a74831a5" name="Default Changelist" comment="Create form">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ImageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MailController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Jobs/PrepareJob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Jobs/PublishJob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Jobs/SendMessage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/ReviewModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_08_20_141452_create_review_models_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_09_02_103007_create_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_09_20_141933_create_tasks_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/mail.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/review.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/tasks/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/tasks/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/tasks/one-task.blade.php" afterDir="false" />
+    <list default="true" id="51522f0a-2f42-4ec9-aa84-89a0a74831a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/tasks/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Tasks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/aside.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/footer.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/header.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/hero.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/messages.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/messages.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/one-messages.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/update-message.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TasksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TasksController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tasks/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tasks/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tasks/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tasks/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tasks/one-task.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tasks/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -193,17 +167,17 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\itprog\app\Models" />
-      <recent name="C:\laragon\www\itprog\app" />
-      <recent name="C:\laragon\www\itprog\resources\views" />
-      <recent name="C:\laragon\www\itproger\app\Models" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\laragon\www\itprog\resources\views\tasks" />
       <recent name="C:\laragon\www\itprog\resources\views" />
       <recent name="C:\laragon\www\itprog\resources\views\layouts" />
       <recent name="C:\laragon\www\itprog\config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\itprog\app\Models" />
+      <recent name="C:\laragon\www\itprog\app" />
+      <recent name="C:\laragon\www\itprog\resources\views" />
+      <recent name="C:\laragon\www\itproger\app\Models" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -274,7 +248,11 @@
       <workItem from="1631529022276" duration="1264000" />
       <workItem from="1631708195378" duration="1197000" />
       <workItem from="1631888054088" duration="1310000" />
-      <workItem from="1632139333249" duration="13768000" />
+      <workItem from="1632139333249" duration="13840000" />
+      <workItem from="1632208871546" duration="830000" />
+      <workItem from="1632314573449" duration="4708000" />
+      <workItem from="1632382440481" duration="7784000" />
+      <workItem from="1632469188812" duration="7584000" />
     </task>
     <task id="LOCAL-00001" summary="Validation">
       <created>1629144770222</created>
@@ -290,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632154464196</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create form 2">
+      <created>1632154704747</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632154704747</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +298,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Validation" />
     <MESSAGE value="Create form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create form" />
+    <MESSAGE value="Create form 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create form 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
