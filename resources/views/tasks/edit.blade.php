@@ -24,7 +24,6 @@
                 <label for="author">Автор</label>
                 <input id="author" value="{{ $data->author }}" name="author" class="form-control" type="text">
             </div>
-
             <button type="submit" class="btn btn-success">Обновить</button>
         </form>
     </div>

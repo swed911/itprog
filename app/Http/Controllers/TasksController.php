@@ -33,13 +33,20 @@ class TasksController extends Controller
 
         $task->save();
 
-        return redirect(route('tasks.index'));
+        return redirect()->route('tasks.show', $task->id)->with('success', 'Задача была добавлена');
     }
 
     public function edit($id)
     {
         $task = new Tasks;
         return view('tasks.edit', ['data' => $task->find($id)]);
+
+    }
+
+    public function destroy($id)
+    {
+        dd(Tasks::find($id));
+        //return view('tasks.index', ['data' => $task->all()]);
 
     }
 }
