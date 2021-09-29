@@ -8,7 +8,7 @@
             <p><small>{{ $data->created_at }}</small></p>
             <a href="{{ route('tasks.index') }}"><button class="btn btn-warning">Вернуться к списку</button></a>
             <a href="{{ route('tasks.edit', $data->id )}}"><button class="btn btn-warning">Редактировать</button></a>
-            <form<a href="{{ route('tasks.destroy', $data->id )}}"><button class="btn btn-danger">Удалить</button></a>
+            <a href="{{ route('tasks.destroy', $data->id )}}"><button class="btn btn-danger">Удалить</button></a>
         </div>
     @if (session('success'))
         <div class="col-sm-12">

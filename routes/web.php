@@ -13,6 +13,8 @@ Route::get('/about', function () {
 
 Route::resource('tasks', 'TasksController');
 
+Route::get('tasks/{task}/delete', 'TasksController@destroy')->name('tasks.destroy');
+
 
 
 

@@ -2,6 +2,7 @@
 @section('title')Все задачи@endsection
 @section('main_content')
     <h1>Список задач</h1>
+    <p><a href="{{ route('tasks.create') }}"><button class="btn btn-warning">Создать задачу</button></a></p>
     @foreach($data as $element)
         <div class="alert alert-info">
             <h3>{{ $element->title }}</h3>
@@ -11,4 +12,3 @@
         </div>
     @endforeach
 @endsection
-

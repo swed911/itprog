@@ -45,8 +45,8 @@ class TasksController extends Controller
 
     public function destroy($id)
     {
-        dd(Tasks::find($id));
-        //return view('tasks.index', ['data' => $task->all()]);
+        Tasks::find($id)->delete();
+        return view('tasks.index', ['data' => Tasks::all()]);
 
     }
 }
